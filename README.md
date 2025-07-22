@@ -1,5 +1,5 @@
 📘 Project Description
-This project aims to detect fraudulent (spam) emails using machine learning, specifically the Naive Bayes classifier. By analyzing the content of emails, the model predicts whether a message is spam or not spam (ham), helping to automate email filtering and improve inbox security.
+ - This project aims to detect fraudulent (spam) emails using machine learning, specifically the Naive Bayes classifier. By analyzing the content of emails, the model predicts whether a message is spam or not  - spam (ham), helping to automate email filtering and improve inbox security.
 
 🎯 Objectives
  - Automatically classify emails as spam or not spam.
