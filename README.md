@@ -1,21 +1,27 @@
-Email Spam Or Not
-Detects Whether an input email is spam or not spam
+📘 Project Description
+This project aims to detect fraudulent (spam) emails using machine learning, specifically the Naive Bayes classifier. By analyzing the content of emails, the model predicts whether a message is spam or not spam (ham), helping to automate email filtering and improve inbox security.
 
-## Tech Stack
- - Python
- -  Steamlit
- -   Scikit-learn
-
-## Usage
-...Training and serving ....
-
-## Dataset
-
- - Kaggle "Email Spam Classification Dataset" (5k+ Emails)
-
-## Model Training
- - Text cleaning
- - TF-IDFF feature extraction
- - Train/Test split
- - Naive Bayes
- - Save 'model.pkl', 'vectorizer.pkl'
+🎯 Objectives
+ - Automatically classify emails as spam or not spam.
+ - Improve email security using natural language processing (NLP).
+ - Build a lightweight, efficient, and accurate machine learning model for text classification.
+🧰 Tech Stack & Tools
+ - Programming Language: Python
+ - Libraries:
+   scikit-learn – Machine learning & Naive Bayes
+   pandas, numpy – Data handling
+   re, NLTK – Text preprocessing
+   matplotlib, seaborn – Visualization
+📂 Project Structure
+📊 Dataset Information
+ - Dataset Used: SMS Spam Collection
+ - Source: UCI Machine Learning Repository
+Format:
+label: Indicates "spam" or "ham"
+message: The actual email or SMS content
+🔄 How It Works
+1.Preprocessing: Clean and normalize text (lowercase, remove punctuation, stopwords).
+2.Feature Extraction: Convert text to numeric features using CountVectorizer or TF-IDF.
+3.Model Training: Train a Multinomial Naive Bayes classifier.
+4.Prediction: Classify new messages as spam or ham.
+5.Evaluation: Measure model performance using accuracy, precision, recall, and F1-score.
